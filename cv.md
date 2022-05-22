@@ -6,10 +6,10 @@
 
 ---
 
-- Phone: +375 29 577-07-73
-- E-mail: alex1337lyk@gmail.com
-- GitHub: [Alexander Lukyanov](https://github.com/coa4man)
-- Telegram: [Alexander Lukyanov](https://t.me/coachmann)
+- **Phone:** +375 29 577-07-73
+- **E-mail:** alex1337lyk@gmail.com
+- **GitHub:** [Alexander Lukyanov](https://github.com/coa4man)
+- **Telegram:** [Alexander Lukyanov](https://t.me/coachmann)
 
 ### About me
 
@@ -51,12 +51,12 @@ Missing
 
 ---
 
-- Belarussion State Economic University, Accountant (September 2016 - June 2020)
-- TeachMeSkills, frontend developer (in progress)
+- Belarusion State Economic University, Accountant (**September** _2016_ - **June** _2020_)
+- TeachMeSkills, frontend developer (**in progress**)
 
 ### Language
 
 ---
 
-Russian / Belarussian level - native
-English level - A2
+**_Russian / Belarusian_** level - native
+**_English_** level - A2
