@@ -477,11 +477,20 @@ html {
   box-sizing: inherit;
 }
 
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
 /* Blocks styles start*/
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
 }
 
 .title {
@@ -504,6 +513,12 @@ html {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 18px;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
 }
 
 /* Blocks styles end*/
@@ -547,3 +562,66 @@ html {
 }
 
 /* First styles end */
+
+/* Second styles start */
+
+.second {
+  margin-left: 60px;
+}
+
+.second__name-title {
+  margin-bottom: 16px;
+}
+
+.second__job-border {
+  height: 4px;
+  width: 58px;
+  background: #dc5327;
+  margin-bottom: 16px;
+}
+
+.second__title-job {
+  font-size: 24px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.second__skills-item {
+  padding-bottom: 20px;
+}
+
+.second__experience {
+  margin-bottom: 54px;
+}
+
+.second__code {
+  position: relative;
+}
+
+.second__code-border {
+  border-top: 4px solid #dc5327;
+  border-left: 4px solid #dc5327;
+  width: 50px;
+  height: 50px;
+}
+
+.second__code-borde-transform {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  transform: rotate(180deg);
+}
+
+.second__code-title {
+  position: absolute;
+  margin: 0;
+  top: 30px;
+  left: 31px;
+}
+
+.second__code-text {
+  margin-top: 27px;
+  margin-left: 31px;
+}
+
+/* Second styles end */
