@@ -469,12 +469,24 @@ textarea {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
 }
 
 h1 {
@@ -491,6 +503,12 @@ h1 {
 
 .flex-container {
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
 }
 
 .title {
@@ -515,13 +533,40 @@ h1 {
   margin-bottom: 18px;
 }
 
-.text {
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
+.picture {
+  padding-top: 15px;
 }
 
 /* Blocks styles end*/
+
+/* Header styles start */
+.header {
+  padding-bottom: 15px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .nav__list {
+    flex-wrap: wrap;
+  }
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #dc5327;
+}
+
+.nav__link:hover {
+  opacity: 0.4;
+  color: #000;
+}
+
+/* Header styles end */
 
 /* First styles start */
 
@@ -586,6 +631,10 @@ h1 {
   text-transform: uppercase;
 }
 
+.second__skills-list {
+  list-style-type: disc;
+}
+
 .second__skills-item {
   padding-bottom: 20px;
 }
@@ -619,9 +668,35 @@ h1 {
   left: 31px;
 }
 
-.second__code-text {
-  margin-top: 27px;
-  margin-left: 31px;
+.second__code-description {
+  /* background-color: #000; */
+  margin: 31px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 /* Second styles end */
+
+/* Footer styles start */
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__year {
+  background-color: #e4e4e4;
+  width: 370px;
+  padding-left: 50px;
+}
+
+.footer__rss-pic {
+  padding-top: 20px;
+  width: 130px;
+}
+
+.footer__github {
+  width: 80px;
+}
+
+/* Footer styles end */

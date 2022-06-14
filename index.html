@@ -10,6 +10,23 @@
 </head>
 
 <body>
+  <!-- Header start -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#About" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#Code" class="nav__link">Code Example</a></li>
+          <li class="nav__item"><a href="#Contacts" class="nav__link">Contacts</a></li>
+          <li class="nav__item"><a href="#Languages" class="nav__link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
+
   <main class="main">
     <div class="container">
 
@@ -35,7 +52,7 @@
           <!-- Picture end -->
           <div class="first__container">
             <!-- Contacts start -->
-            <div class="first__contacts">
+            <div class="first__contacts" id="Contacts">
               <h2 class="first__contacts-title title">
                 Contacts
               </h2>
@@ -56,7 +73,7 @@
             <!-- Contacts end -->
 
             <!-- Languages start -->
-            <div class="first__languages">
+            <div class="first__languages" id="Languages">
               <h2 class="first__languages-title title">Languages</h2>
 
               <div class="first__languages-info info">
@@ -84,7 +101,7 @@
             Frontend Developer
           </h2>
           <!-- About me start -->
-          <div class="second__about">
+          <div class="second__about" id="About">
             <h2 class="second__about-title title">
               About me
             </h2>
@@ -97,7 +114,7 @@
           <!-- About me end -->
 
           <!-- Education start -->
-          <div class="second__education">
+          <div class="second__education" id="Education">
             <h2 class="second__education-title title">
               Education
             </h2>
@@ -111,11 +128,11 @@
           <!-- Education end -->
 
           <!-- Skills start -->
-          <div class="second__skills">
+          <div class="second__skills" id="Skills">
             <h2 class="second__skills-title title">
               Skills
             </h2>
-            <ul type="disc" class="second__skills-list">
+            <ul class="second__skills-list">
               <li class="second__skills-item">Html</li>
               <li class="second__skills-item">Css</li>
               <li class="second__skills-item">JavaScript</li>
@@ -124,31 +141,20 @@
           </div>
           <!-- Skills end -->
 
-          <!-- Experience start -->
-          <div class="second__experience">
-            <h2 class="second__experience-title title">
-              Experience
-            </h2>
-            <p class="second__experience-text text">
-              Missing
-            </p>
-          </div>
-          <!-- Experience end -->
-
           <!-- Code example start -->
-          <div class="second__code">
+          <div class="second__code" id="Code">
             <div class="second__code-border"></div>
             <h2 class="second__code-title title">Code Example</h2>
-            <p class="second__code-text text"><code>
-              function simpleMultiplication(number) {
-              if(number % 2 === 0) {
-              return number * 8;
-              }
-              else {
-              return number * 9;
-              }
-              }
-            </code></p>
+            <pre class="second__code-description"><code>
+function simpleMultiplication (number) {
+  if (number % 2 === 0) {
+    return number * 8;
+  }
+  else {
+    return number * 9;
+    }
+  }
+          </code></pre>
             <div class="second__code-border second__code-borde-transform"></div>
           </div>
           <!-- Code example end -->
@@ -160,6 +166,30 @@
     </div>
 
   </main>
+
+  <!-- Footer start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+
+        <div class="footer__year">2022</div>
+
+        <div class="footer__rss picture">
+          <a href="https://rs.school/js/" target="_blank" class="footer__link">
+            <img src="./assets/img/rs_school_js.svg" alt="RS-school" class="footer__rss-pic">
+          </a>
+        </div>
+
+        <div class="footer__github picture">
+          <a href="https://github.com/coa4man" target="_blank" class="footer__link">
+            <img src="./assets/img/github-ico.svg" alt="github" class="footer__github">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
 </body>
 
 </html>
