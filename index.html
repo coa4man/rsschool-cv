@@ -5,12 +5,191 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Document</title>
 </head>
 
 <body>
+  <!-- Header start -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#About" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#Code" class="nav__link">Code Example</a></li>
+          <li class="nav__item"><a href="#Contacts" class="nav__link">Contacts</a></li>
+          <li class="nav__item"><a href="#Languages" class="nav__link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
 
+  <main class="main">
+    <div class="container">
+
+      <div class="flex-container">
+
+        <!-- First start -->
+        <section class="first">
+          <!-- Adress start -->
+          <div class="first__adress">
+            <h3 class="first__adress-title">
+              Adress
+            </h3>
+            <p class="first__adress-text">
+              Belarus, Minsk
+            </p>
+          </div>
+          <!-- Adress end -->
+
+          <!-- Picture start -->
+          <div class="first__picture">
+            <img src="./assets/img/person-pic.jpg" alt="Alexander Lukyanov" class="first__picture-ava">
+          </div>
+          <!-- Picture end -->
+          <div class="first__container">
+            <!-- Contacts start -->
+            <div class="first__contacts" id="Contacts">
+              <h2 class="first__contacts-title title">
+                Contacts
+              </h2>
+              <div class="first__contacts-info info">
+                <h3 class="first__contacts-subtitle subtitle">Phone</h3>
+                <p class="first__contacts-description description">+375 29 577-07-73</p>
+
+                <h3 class="first__contacts-subtitle subtitle">E-mail</h3>
+                <p class="first__contacts-description description">alex1337lyk@gmail.com</p>
+
+                <h3 class="first__contacts-subtitle subtitle">GitHub</h3>
+                <p class="first__contacts-description description">Alexander Lukyanov</p>
+
+                <h3 class="first__contacts-subtitle subtitle">Telegram</h3>
+                <p class="first__contacts-description description">Alexander Lukyanov</p>
+              </div>
+            </div>
+            <!-- Contacts end -->
+
+            <!-- Languages start -->
+            <div class="first__languages" id="Languages">
+              <h2 class="first__languages-title title">Languages</h2>
+
+              <div class="first__languages-info info">
+                <h3 class="first__languages-subtitle subtitle">Russian / Belarussian</h3>
+                <p class="first__languages-description description">level - native</p>
+
+                <h3 class="first__languages-subtitle subtitle">English</h3>
+                <p class="first__languages-description description">level - A2</p>
+              </div>
+            </div>
+            <!-- Languages end -->
+          </div>
+        </section>
+        <!-- First end -->
+
+        <!-- Second start -->
+        <section class="second">
+          <h1 class="second__name-title">
+            Alexander
+            <br>
+            Lukyanov
+          </h1>
+          <div class="second__job-border"></div>
+          <h2 class="second__title-job">
+            Frontend Developer
+          </h2>
+          <!-- About me start -->
+          <div class="second__about" id="About">
+            <h2 class="second__about-title title">
+              About me
+            </h2>
+            <p class="second__about-text text">
+              I am 23 years old, I work as an accountant in state-run companny. I want to become a frontend developer in
+              order to create new apps and improve in new for me field. My advantages are stress resistance,
+              responsibility, communicativeness, desire to learn new things.
+            </p>
+          </div>
+          <!-- About me end -->
+
+          <!-- Education start -->
+          <div class="second__education" id="Education">
+            <h2 class="second__education-title title">
+              Education
+            </h2>
+            <p class="second__education-text text">
+              Belarusion State Economic University, Accountant (September 2016 - June 2020)
+              <br>
+              <br>
+              TeachMeSkills, frontend developer (in progress)
+            </p>
+          </div>
+          <!-- Education end -->
+
+          <!-- Skills start -->
+          <div class="second__skills" id="Skills">
+            <h2 class="second__skills-title title">
+              Skills
+            </h2>
+            <ul class="second__skills-list">
+              <li class="second__skills-item">Html</li>
+              <li class="second__skills-item">Css</li>
+              <li class="second__skills-item">JavaScript</li>
+              <li class="second__skills-item">Git</li>
+            </ul>
+          </div>
+          <!-- Skills end -->
+
+          <!-- Code example start -->
+          <div class="second__code" id="Code">
+            <div class="second__code-border"></div>
+            <h2 class="second__code-title title">Code Example</h2>
+            <pre class="second__code-description"><code>
+function simpleMultiplication (number) {
+  if (number % 2 === 0) {
+    return number * 8;
+  }
+  else {
+    return number * 9;
+    }
+  }
+          </code></pre>
+            <div class="second__code-border second__code-borde-transform"></div>
+          </div>
+          <!-- Code example end -->
+
+        </section>
+        <!-- Second end -->
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+
+        <div class="footer__year">2022</div>
+
+        <div class="footer__rss picture">
+          <a href="https://rs.school/js/" target="_blank" class="footer__link">
+            <img src="./assets/img/rs_school_js.svg" alt="RS-school" class="footer__rss-pic">
+          </a>
+        </div>
+
+        <div class="footer__github picture">
+          <a href="https://github.com/coa4man" target="_blank" class="footer__link">
+            <img src="./assets/img/github-ico.svg" alt="github" class="footer__github">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
 </body>
 
 </html>
