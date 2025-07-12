@@ -6,10 +6,10 @@
 
 ---
 
-- **Phone:** +375 29 577-07-73
+- **Phone:** +375
 - **E-mail:** alex1337lyk@gmail.com
 - **GitHub:** [Alexander Lukyanov](https://github.com/coa4man)
-- **Telegram:** [Alexander Lukyanov](https://t.me/coachmann)
+- **Telegram:** [Alexander Lukyanov](https://t.me/notfoundpage)
 
 ### About me
 
@@ -22,7 +22,7 @@ I am 23 years old, I work as an accountant in state-run companny. I want to beco
 ---
 
 - HTML
-- CSS (SCSS/SASS, BEM)
+- CSS
 - JavaScript (Basic)
 - Git
 
@@ -52,12 +52,11 @@ Missing
 ---
 
 - Belarusion State Economic University, Accountant (**September** _2016_ - **June** _2020_)
-- TeachMeSkills, frontend developer (**in progress**)
 
 ### Language
 
 ---
 
 **_Russian / Belarusian_** level - native
-
-**_English_** level - A2
+**_🇵🇱_** - B1
+**_🇬🇧_** level - B1
