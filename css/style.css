@@ -65,6 +65,24 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 64px;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+  font-size: 30px;
+}
+
 /******************************************/
 /* HEADER */
 /******************************************/
@@ -77,6 +95,17 @@ body {
   padding: 0 48px;
 
   height: 96px;
+}
+
+.link:link,
+.link:visited {
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  cursor: pointer;
 }
 
 /******************************************/
@@ -101,16 +130,95 @@ body {
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
+}
 
+.job {
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/******************************************/
+/* CONTACTS */
+/******************************************/
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+/******************************************/
+/* SKILLS */
+/******************************************/
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.item-logo {
+  width: 36px;
+  height: 36px;
+}
+
+/******************************************/
+/* EDUCATION */
+/******************************************/
+
+.education-title {
+  margin-bottom: 16px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 16px;
+}
+
+.education-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.education-logo:link,
+.education-logo:visited {
   transition: all 0.3s;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.education-logo:hover,
+.education-logo:active {
   color: #cf711f;
+  cursor: pointer;
 }
 
-.title {
-  font-size: 44px;
-  text-align: center;
+/******************************************/
+/* CODE */
+/******************************************/
+
+.code {
+}
+
+pre {
+  display: block;
+  text-align: left;
+}
+
+.code-text {
+  align-items: start;
+  font-size: 16px;
 }

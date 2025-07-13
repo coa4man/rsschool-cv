@@ -19,27 +19,112 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link link" href="#">Contacts</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="#">Summary</a>
-          </li>
-          <li class="nav-list-item"><a class="nav-link" href="#">Skills</a></li>
-          <li class="nav-list-item"><a class="nav-link" href="#">Code</a></li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link link" href="#">Summary</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="#">Languages</a>
+            <a class="nav-link link" href="#">Skills</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link link" href="#">Code</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link link" href="#">Education</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link link" href="#">Languages</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="container">
-        <h1 class="title">Junior Frontend Developer</h1>
+      <section class="job container">
+        <h1 class="jon-title">Junior Frontend Developer</h1>
       </section>
+
+      <div class="container grid grid--2-cols">
+        <section class="contacts">
+          <h3 class="contacts-title title">Contacts</h3>
+          <ul class="contacts-list">
+            <li class="contacts-list-item">Poznań, Poland</li>
+            <li class="contacts-list-item">
+              Email: <a href="#">alex1337lyk@gmail.com</a>
+            </li>
+            <li class="contacts-list-item">Github: <a href="#">coa4man</a></li>
+            <li class="contacts-list-item">
+              Discord: <a href="#">sharky20</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="summary">
+          <p class="summary-text">
+            I’m a 26-year-old junior frontend developer living in Poland. I work
+            as an Account Manager, but I’m learning HTML, CSS, and JavaScript to
+            start a new career in IT. I enjoy building simple, responsive
+            websites and want to grow as a frontend developer through real
+            projects and practice.
+          </p>
+        </section>
+      </div>
+
+      <div class="container grid grid--3-cols">
+        <section class="skills">
+          <h3 class="skills-title title">Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <ion-icon class="item-logo link" name="logo-html5"></ion-icon>
+            </li>
+            <li class="skills-list-item">
+              <ion-icon class="item-logo link" name="logo-css3"></ion-icon>
+            </li>
+            <li class="skills-list-item">
+              <ion-icon class="item-logo link" name="logo-nodejs"></ion-icon>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h3 class="education-title title">Education</h3>
+
+          <div class="flex-container">
+            <p>
+              <ion-icon class="education-logo" name="school-outline"></ion-icon>
+            </p>
+
+            <div class="education-description">
+              <p class="education-university">
+                Belarussian State Economic University
+              </p>
+              <p class="education-specialization">Accounting and Finance</p>
+              <p class="education-year">2016 - 2020</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="code">
+          <h3 class="code-title title">Code</h3>
+          <pre>
+            <code class="code-text">
+              function hello() {
+                console.log("Hello, world!");
+              }
+            </code>
+          </pre>
+        </section>
+      </div>
     </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
