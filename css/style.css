@@ -60,6 +60,11 @@ body {
   color: #555;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /******************************************/
 /* HEADER */
 /******************************************/
@@ -103,4 +108,9 @@ body {
 .nav-link:hover,
 .nav-link:active {
   color: #cf711f;
+}
+
+.title {
+  font-size: 44px;
+  text-align: center;
 }
