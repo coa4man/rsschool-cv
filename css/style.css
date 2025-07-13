@@ -58,6 +58,10 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   color: #555;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container {
@@ -83,6 +87,23 @@ body {
   font-size: 30px;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link:link,
+.link:visited {
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  cursor: pointer;
+}
+
 /******************************************/
 /* HEADER */
 /******************************************/
@@ -97,16 +118,7 @@ body {
   height: 96px;
 }
 
-.link:link,
-.link:visited {
-  transition: all 0.3s;
-}
 
-.link:hover,
-.link:active {
-  color: #cf711f;
-  cursor: pointer;
-}
 
 /******************************************/
 /* NAVIGATION */
@@ -221,4 +233,37 @@ pre {
 .code-text {
   align-items: start;
   font-size: 16px;
+}
+
+/******************************************/
+/* LANGUAGES */
+/******************************************/
+
+
+
+.languages-list {
+  list-style: none;
+  padding
+}
+
+/******************************************/
+/* EXPERIENCE */
+/******************************************/
+
+.experience {
+  align-items: center;
+}
+
+/******************************************/
+/* FOOTER */
+/******************************************/
+
+.footer {
+  background-color: #fdf2e9;
+  height: 96px;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
 }
