@@ -93,6 +93,10 @@ body {
   gap: 16px;
 }
 
+.mb {
+  margin-bottom: 100px;
+}
+
 .link:link,
 .link:visited {
   transition: all 0.3s;
@@ -148,6 +152,14 @@ body {
   font-size: 44px;
   text-align: center;
   margin-bottom: 24px;
+}
+
+/******************************************/
+/* JOB */
+/******************************************/
+
+.job {
+  margin-bottom: 150px;
 }
 
 /******************************************/
@@ -222,8 +234,7 @@ body {
 /* CODE */
 /******************************************/
 
-.code {
-}
+
 
 pre {
   display: block;
@@ -261,6 +272,7 @@ pre {
 .footer {
   background-color: #fdf2e9;
   height: 96px;
+  margin-top: 200px;
 }
 
 .footer-logo {
